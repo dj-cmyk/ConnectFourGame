@@ -1,0 +1,29 @@
+<!doctype html>
+<head>
+  <title>Connect 4</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap" rel="stylesheet">
+  <link href="connect4.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>GO FOR IT!</h1>
+    <h2>Connect Four</h2>
+    <h3>Player <span id="turn">1</span>: Take Your Turn!</h3>
+    <div class="hidden" id="gameover">
+      <h3 id="winner"></h3> 
+      <button id="restartbtn">Restart The Game</button>
+    </div>
+  </header>
+
+  <div id="game">
+    <table id="board"></table>
+  </div>
+  
+
+
+
+  <script src="connect4.js"></script>
+</body>
+</html>

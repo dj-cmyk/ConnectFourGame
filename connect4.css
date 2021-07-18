@@ -1,0 +1,98 @@
+/* game board table */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #F4ECD6;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  color: #847996;
+  font-size: 3em;
+  letter-spacing: .1em;
+  margin-top: 10%;
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  color: #847996;
+  font-size: 3em;
+  font-weight: bold;
+  letter-spacing: .2em;
+  margin-top: 10px;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+  color: #6FBD85;
+  text-align: center;
+  text-transform: lowercase;
+  margin: 10px 0;
+}
+
+button {
+  background-color: #847996;
+  color: #F4ECD6;
+  font-size: 1.2em;
+  padding: 5px;
+  border-radius: 5%;
+  margin: 10px;
+}
+
+
+
+#board td {
+  width: 50px;
+  height: 50px;
+  border: solid 1px #666;
+  background-color: #F4ECD6;
+}
+
+
+
+.piece {
+  /* TODO: make into circles */
+  margin: 5px;
+  width: 80%;
+  height: 80%;
+  border-radius: 50%;
+}
+
+.player-one {
+  background-color: #6A156A;
+}
+
+.player-two {
+  background-color: #6FBD85;
+}
+
+
+#column-top td {
+  border: dashed 1px lightgray;
+}
+
+#column-top td:hover {
+  background-color: #847996;
+  opacity: 50%;
+}
+
+
+.hidden {
+  display: none;
+}
+
+.gameover {
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+}
